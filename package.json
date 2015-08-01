@@ -1,0 +1,11 @@
+{
+  "name": "desktop-clippy",
+  "version": "1.0.0",
+  "description": "Add Clippy or his friends to any website for instant nostalgia",
+  "main": "build/clippy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Smore, inc.",
+  "license": "MIT"
+}
