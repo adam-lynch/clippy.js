@@ -1,4 +1,4 @@
-clippy.BASE_PATH = (window.protocol === 'file:' ? 'https:' : window.protocol) + '//s3.amazonaws.com/clippy.js/Agents/';
+clippy.BASE_PATH = (window.location.protocol === 'file:' ? 'https:' : window.location.protocol) + '//s3.amazonaws.com/clippy.js/Agents/';
 
 clippy.load = function (name, successCb, failCb) {
     var path = clippy.BASE_PATH + name;
